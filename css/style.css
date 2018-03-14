@@ -1,0 +1,51 @@
+iframe {
+    margin-left: auto;
+    margin-right: auto;
+}
+#banner{
+    min-height: 400px;
+    background-image: url("../img/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#sticked{
+    z-index: 10 !important;
+}
+.nav-tabs.nav-justified>li{
+    background-color: #222222;
+}
+.nav-tabs.nav-justified>li>a{
+    /*border-bottom: none;*/
+    /*border-radius: 0px;*/
+    border: none;
+}
+.nav-tabs>li>a:hover{
+    border: none;
+}
+#rocket-league{
+    background-color: #e53935;
+    padding-bottom: 30px;
+}
+#counter-strike{
+    background-color: #eeeeee;
+    padding-bottom: 30px;
+}
+#discord{
+    padding-bottom: 30px;
+}
+.cs{
+    color: #e53935;
+}
+.border-white{
+    border: solid 10px white;
+    border-radius: 3px;
+    padding: -5px;
+}
+.border-red{
+    border: solid 10px #e53935;
+    border-radius: 3px;
+}
+#mates-table{
+    background-color: #212529;
+    border-radius: 3px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/darkly.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Exia LAN</title>
+</head>
+<body>
+<div class="row" id="banner"></div>
+<nav id="sticked">
+    <ul class="nav nav-tabs nav-justified">
+        <li><a href="mailto:guillaume.garez@viacesi.fr?subject=[Inscription CSGO]">Inscription CS:GO</a></li>
+        <li><a href="mailto:guillaume.garez@viacesi.fr?subject=[Recherche Team]">Recherche de teammate(s)</a></li>
+        <li><a href="https://www.toornament.com/tournaments/1265874266677059584/registration/?_locale=fr_FR">Inscription RL</a></li>
+    </ul>
+</nav>
+<div class="row" id="rocket-league">
+    <div class="container text-center">
+        <h1>Rocket League</h1>
+        <h3>2v2</h3>
+        <div class="embed-responsive embed-responsive-16by9 border-white">
+            <iframe class="embed-responsive-item" src="https://widget.toornament.com/tournaments/1265874266677059584/navigator?_locale=fr_FR&theme=discipline" frameborder="0" scrolling="no" allowfullscreen="true"></iframe>
+        </div>
+        <div>
+            <h2>Cherche une team :</h2>
+            <table id="mates-table" class="table table-striped table-dark table-responsive">
+                <thead>
+                    <tr>
+                        <th scope="col" class="text-center">Joueur</th>
+                        <th scope="col" class="text-center">Contact</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td scope="col">Julio-Bananas</td>
+                        <td scope="col"><a href="mailto:jules.morgan@viacesi.fr">jules.morgand@viacesi.fr</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div class="row" id="counter-strike">
+    <div class="container text-center">
+        <h1 class="cs">Counter Strike</h1>
+        <h3 class="cs">5v5</h3>
+        <div class="embed-responsive embed-responsive-16by9 border-red">
+            <iframe class="embed-responsive-item" src="https://widget.toornament.com/tournaments/1265857141236178944/navigator?_locale=fr_FR&theme=discipline" frameborder="0" scrolling="no" allowfullscreen="true"></iframe>
+        </div>
+    </div>
+</div>
+<div class="row" id="discord">
+    <div class="container text-center">
+        <h1>Discord</h1>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://discordapp.com/widget?id=318477034441670666&theme=dark" allowtransparency="true" frameborder="0"></iframe>
+        </div>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/jquery.sticky.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#sticked").sticky({topSpacing:0});
+    });
+</script>
+</body>
+</html>
